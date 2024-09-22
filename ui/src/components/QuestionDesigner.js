@@ -55,14 +55,14 @@ function QuestionDesigner({ addQuestion, onSaveSurvey, onAnalyzeSurvey }) {
           onClick={onSaveSurvey}
           className="bg-cool-blue-500 hover:bg-cool-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center"
         >
-          <Save size={20} className="mr-8" />
+          <Save size={20} className="mr-6" />
           Save Survey
         </button>
         <button
           onClick={onAnalyzeSurvey}
           className="bg-cool-blue-500 hover:bg-cool-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center"
         >
-          <BarChart2 size={20} className="mr-2" />
+          <BarChart2 size={20} className="mr-4" />
           Analyze
         </button>
       </div>
